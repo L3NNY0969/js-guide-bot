@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = "!"; 
 
 client.on('ready', () => {
-    client.user.setActivity('JS lessons', {type: 'WATCHING'});
+    client.user.setActivity('JS lessons on youtube!', {type: 'WATCHING'});
 });
 
 client.on('message', msg => {
